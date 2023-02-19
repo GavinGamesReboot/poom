@@ -1,0 +1,16 @@
+log.txt
+config.txt
+activity_log.txt
+/backup/
+/bbs/
+/carts/demos
+/cdata
+sdl_controllers.txt
+*.bak
+# ignore standard Python virtual envs
+/.env
+/env
+# ignoring generated carts
+/carts/*_[0-9].p8
+/carts/*_e[0-9].p8
+/carts/*_atlas.lua
